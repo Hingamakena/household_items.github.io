@@ -15,8 +15,12 @@ main{
 	flex: 1;
 }
 footer {
+	width: 100vw;
+	background-color: grey;
+	color: white;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 .scroll_wrapper {
 	width: 100vw;
@@ -47,4 +51,13 @@ footer {
 	border-radius: 99px;
 	align-items: center;
 	justify-content: center;
+}
+#display_image {
+	display: flex;
+	justify-content: center;
+}
+#disp {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
 }
