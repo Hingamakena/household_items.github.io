@@ -55,6 +55,12 @@ footer {
 #display_image {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+#display img{
+	max-width: 100px;
+	height: auto;
+	display: block;
 }
 #disp {
 	width: 400px;
